@@ -1,0 +1,33 @@
+body{background-image: url(images/background.gif);
+		display:block;
+		text-align: center;)
+}
+
+h1{color: red;
+	}
+main{height:880px;}
+
+h2{color:black;)
+}
+footer{font-style: italics;
+		text-align: right;
+		}
+nav{background-color:#eeeeee;
+	
+	text-align: center; 
+	padding-top: 10px;
+	float: left;
+	width: 300px;
+	height: 800px;
+	margin:10px;
+	}
+	
+menu{background-image: url(images/construction.jpg);
+border-top: 1em;
+padding-top:.2em;
+text-align:center;
+margin:3em;
+padding-left:.1em;
+height:auto;
+width:auto;
+font-weight: bold;}
