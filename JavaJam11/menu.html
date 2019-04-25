@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+	<html lang="en">
+	
+	
+	<head>
+		<link rel="stylesheet" href="javajam.css">
+		<!-- [if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+		</script>
+		<![endif]-->
+		<title> JavaJam Coffee House Menu</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	
+	<body>
+		<div id="wrapper">
+		<header>
+			<h1>JavaJam Coffee Menu<h1>
+		</header>
+		
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="music.html">Music</a></li>
+				<li><a href="jobs.html">Jobs</a></li>
+				<img id="coffeimage" name="coffeimage" src="cappuchino.jpg" alt="Picture" height="215" width="190">
+				<p id="parCaption" style="text-align:center;color:white;">$2.75</P>
+				<input type='button' id="Next" value="Next" style="margin:0px auto;display:block; onlick="upDate()>
+			</ul>	
+			<script>
+				var prices = ["$2.00", "$4.75","$3.00","$5.00","$1.00"]
+				// Image factory
+				var createImage = function(src, title) {
+					var img   = new Image();
+					img.src   = src;
+					img.alt   = title;
+					img.title = title;
+					return img; 
+				}
+
+				
+				
+			
+			// name: 'Americano', image: 'americano.jpg'},
+				//{ name: 'cafeaulait', image: 'cafeaulait.jpg'},
+				//{ name: 'cappuchino', image: 'cappuchino.jpg'},
+				//{ name: 'dirtychai', image: 'dirtychai.jpg'},
+	//{ name: 'latte', image: 'latte.jpg'}]
+				
+				var counter = 0;
+				
+				function initialize(){
+					images.push(createImage("americano.jpg", "foo title"));
+					images.push(createImage("cafeaulait.jpg", "bar title"));				
+					images.push(createImage("cappuchino.jpg", "bar title"));				
+					images.push(createImage("dirtchai.jpg", "bar title"));				
+					images.push(createImage("latte.jpg", "bar title"));				
+					images.push(createImage("mocha.jpg", "bar title"));				
+				}
+			
+			
+				function upDate(){
+					if (counter>5){
+						
+						counter=0;
+					}
+				
+				}
+			</script>
+			
+		
+		</nav>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<main>
+			
+			<div id="heromugs"></div>
+			<h2>Coffee at JavaJam</h2>
+			
+			<p>
+				Indulge in our locally roasted free-trade coffee and enjoy the aroma, the smooth taste,
+				the caffeine! Join our Mug Club and get a 10% discount on each cup of coffee you
+				purchase — ask the barista for details.
+			</p>
+			<table>
+				<tr>
+					<th>Menu Item</th>
+					<th>Description</th>
+				</tr>
+				<tr>
+					<th>Just Java</th>
+					<td>Regular house blend, decaffeinated coffee, or flavor of the day <br>
+					Endless Cup $2.00</td>
+				</tr>
+				<tr>
+					<th>Cafe Au Lait</th>
+					<td>House blended coffee infused into a smooth, steamed milk.<br>
+					Single $2.00<br>Double $3.00</td>
+				</tr>
+				<tr>
+					<th>Iced Cappucino</th>
+					<td>Sweetened espresso blended with icy-cold milk and served in chilled glass.<br>
+					Single $4.75<br>Double $5.75</td>
+				</tr>
+				<tr>
+					<th>Americano</th>
+					<td>2/3 ware, 1/3 espresso. Total of 150mg caffeine<br>
+					Single $3.00<br>Double $4.00</td><td>
+				</tr>
+				<tr>
+					<th>Cappucino</th>
+					<td>1/3 foam, 1/3 mil, 1/3 espresso. 75mg caffeine<br>
+					Single $5.00<br>Double $6.00</td><td>
+				</tr>
+				<tr>
+					<th>Dirty Chai</th>
+					<td>1/2 milk, 1/2 chai concentrate wiht a shot of espresos and a layer of milk foam. Total of 150mg caffeine<br>
+					Single $4.00<br>Double $5.00</td><td>
+				</tr>
+				<tr>
+					<th>Latte</th>
+					<td>2/3 milk, 1/3 espresso. Total of 75mg caffeine<br>
+					Single $1.00<br>Double $3.00</td><td>
+				</tr>
+				
+				
+			</table>
+		</main>
+		
+		<footer>
+			<br>Copyright &copy; 2016 JavaJam Coffee House<br>
+			<a href="mailto:vallejo.2015@gmail.com">me@gmail.com
+		</footer>
+		</div>
+	</body>
+</html>
+		
