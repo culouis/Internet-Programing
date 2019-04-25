@@ -1,0 +1,27 @@
+
+		  
+h1  {font-size:3em;
+	text-align: center;
+	}
+
+h3{ font-size:1.5em;
+text-align:center;
+} 
+	
+#wrapper { margin: auto;
+		  margin-bottom: 1em;
+		  background-color: yellow;
+		  
+		  
+		  text-align: center;
+		  
+}		  
+
+table { width: 90%;
+	  margin: auto;
+	  border-spacing: 0;
+	  background-color: #ffffcc; }
+
+#onlyheadings {padding:10px;
+	color: Red;
+	font-style: bold;}
